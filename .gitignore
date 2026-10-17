@@ -1,0 +1,44 @@
+# Local dependencies and build output
+node_modules/
+dist/
+*.tsbuildinfo
+coverage/
+.vite/
+
+# Runtimes and packaged applications are installed separately
+/runtime/
+*.exe
+*.dll
+*.zip
+*.7z
+*.tar
+*.gz
+
+# Personal restoration data and logs
+/video-jobs/
+/logs/
+/outputs/
+/work/
+*.photo-restore.zip
+*.mp4
+*.mov
+*.mkv
+*.webm
+*.m4v
+*.avi
+*.log
+*.tmp
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+hosts.yml
+/installation.json
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
